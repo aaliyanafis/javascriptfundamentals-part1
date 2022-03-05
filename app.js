@@ -1,3 +1,4 @@
+/*
 console.log("alia")
 
 let firstName = "aaliya"
@@ -17,3 +18,26 @@ let population = 1300000000;
 console.log (contry);
 console.log (continent);
 console.log (population);
+*/
+
+//Destructrutring Arrays
+
+let user = ["Aaliya", 22, "Deoghar"]
+let [name , age , city] = user;
+
+console.log (name);
+console.log (age);
+console.log (city);
+
+//Destructrutring object
+
+let person = {
+    name : "Aaliya",
+    age : 22,
+}
+
+let {name , age} = person;
+
+console.log (name);
+
+
