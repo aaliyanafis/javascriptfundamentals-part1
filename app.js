@@ -18,7 +18,7 @@ let population = 1300000000;
 console.log (contry);
 console.log (continent);
 console.log (population);
-*/
+
 
 //Destructrutring Arrays
 
@@ -39,5 +39,24 @@ let person = {
 let {name , age} = person;
 
 console.log (name);
+*/
+
+//spread operator
+ 
+var arr = [1,2,3]
+var arr1 = [...arr,4,5,6]
+
+console.log(arr1)
+
+
+
+//rest operator
+
+function sum (b, ...a) {
+    console.log(b,a)
+}
+
+sum (5,6,7)
+
 
 
