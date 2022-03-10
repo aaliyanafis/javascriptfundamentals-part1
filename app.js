@@ -39,7 +39,7 @@ let person = {
 let {name , age} = person;
 
 console.log (name);
-*/
+
 
 //spread operator
  
@@ -57,6 +57,30 @@ function sum (b, ...a) {
 }
 
 sum (5,6,7)
+*/
+
+let obj = {
+    name: "Aaliya",
+    language: "JavaScript",
+    hobbies: "photography"
+}
+
+//Iterating an object using for-in loop:
+
+for (let key in obj){
+    console.log(obj[key]);
+}
+
+//Iterating an array using For-of loop:
+console.log("***********For of loop starts here***********")
+
+fruits = ["apple","banana","grapes"];
+
+for(let name of fruits){
+    console.log(name)
+}
+
+
 
 
 
