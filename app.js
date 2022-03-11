@@ -57,7 +57,7 @@ function sum (b, ...a) {
 }
 
 sum (5,6,7)
-*/
+
 
 let obj = {
     name: "Aaliya",
@@ -78,7 +78,29 @@ fruits = ["apple","banana","grapes"];
 
 for(let name of fruits){
     console.log(name)
+
 }
+*/
+
+//ES6 Enhanced object literals
+
+   const keyname= "name";
+const product={
+    [keyname]:"laptop",
+    price:100,
+};
+
+console.log(product);
+
+const accessToken = "kugyhidgtuhewoig";
+const refreshToken = "dioiujhsiukjhfu";
+
+const person={
+    accessToken,
+    refreshToken,
+}
+
+console.log(person)
 
 
 
