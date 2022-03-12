@@ -80,7 +80,7 @@ for(let name of fruits){
     console.log(name)
 
 }
-*/
+
 
 //ES6 Enhanced object literals
 
@@ -100,7 +100,43 @@ const person={
     refreshToken,
 }
 
-console.log(person)
+console.log(person);
+
+*/
+//WORKING WITH STRING PART-1:
+var str = "Javascript is a Great is Language";
+
+//length
+var a = str.length; 
+console.log(a);
+
+//toLowerCase() & toUpperCase()
+var a = str.toLowerCase();
+console.log(a);
+
+var a = str.toUpperCase();
+console.log(a);
+
+//includes()
+var a = str.includes("Great");
+console.log(a);
+
+//startsWith() & endsWith()
+var a = str.startsWith("Java");
+console.log(a);
+
+var a = str.endsWith("age");
+console.log(a);
+
+//search()
+var a = str.search("is");
+console.log(a);
+
+//match()
+var a = str.match(/is/g);
+console.log(a);
+
+
 
 
 
