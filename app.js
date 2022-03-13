@@ -102,7 +102,7 @@ const person={
 
 console.log(person);
 
-*/
+
 //WORKING WITH STRING PART-1:
 var str = "Javascript is a Great is Language";
 
@@ -135,10 +135,36 @@ console.log(a);
 //match()
 var a = str.match(/is/g);
 console.log(a);
+*/
 
+//WORKING WITH STRING PART-2:
+var str = "  Javascript is a Great is Language";
 
+//indexOf() & lastIndexOf()
+var a = str.indexOf("is");
+console.log(a);
 
+var a = str.lastIndexOf("is");
+console.log(a);
 
+//replace()
+var a = str.replace("Javascript", "PHP");
+console.log(a);
 
+//trim()
+var a = str.trim();
+console.log(a);
+
+//charAt
+var a = str.charAt(11);
+console.log(a);
+
+//charCodeAt()
+var a = str.charCodeAt(11);
+console.log(a); 
+
+//fromCharCode()
+var a = String.fromCharCode(65); 
+console.log(a);
 
 
