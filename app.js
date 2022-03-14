@@ -135,7 +135,7 @@ console.log(a);
 //match()
 var a = str.match(/is/g);
 console.log(a);
-*/
+
 
 //WORKING WITH STRING PART-2:
 var str = "  Javascript is a Great is Language";
@@ -165,6 +165,35 @@ console.log(a);
 
 //fromCharCode()
 var a = String.fromCharCode(65); 
+console.log(a);
+*/
+
+//WORKING WITH STRING PART-3
+
+var str = "Javascript is a Great is Language";
+var str2 = "hello";
+
+//concat()
+var a = str.concat(str2);
+console.log(a);
+
+//split()
+var a = str.split(" ");
+console.log(a);
+
+//repeat()
+var a = str.repeat(3);
+console.log(a);
+
+//slice()
+var a = str.slice(3);
+console.log(a);
+
+//substr() & substring()
+var a = str.substr(3,5);
+console.log(a);
+
+var a = str.substring(3,5);
 console.log(a);
 
 
