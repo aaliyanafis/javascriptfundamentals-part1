@@ -166,7 +166,7 @@ console.log(a);
 //fromCharCode()
 var a = String.fromCharCode(65); 
 console.log(a);
-*/
+
 
 //WORKING WITH STRING PART-3
 
@@ -195,5 +195,12 @@ console.log(a);
 
 var a = str.substring(3,5);
 console.log(a);
+*/
 
+//WORKING WITH ARRAY PART-1
+//sort()
+var a = ["Sanjay","Aman","Rehman","Karan"] 
+console.log(a + "<br>");
+a.sort();
+console.log(a);
 
