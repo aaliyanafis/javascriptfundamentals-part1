@@ -199,8 +199,21 @@ console.log(a);
 
 //WORKING WITH ARRAY PART-1
 //sort()
-var a = ["Sanjay","Aman","Rehman","Karan"] 
-console.log(a + "<br>");
-a.sort();
-console.log(a);
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();
+console.log(fruits);
 
+//reverse()
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.reverse();
+console.log(fruits);
+
+//pop()
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();
+console.log(fruits);
+
+//push//
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi", "Lemon");
+console.log(fruits);
