@@ -195,13 +195,14 @@ console.log(a);
 
 var a = str.substring(3,5);
 console.log(a);
-*/
+
 
 //WORKING WITH ARRAY PART-1
 //sort()
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.sort();
 console.log(fruits);
+console.log("Banana");console.log("Orange");console.log("Apple");console.log("Mango");
 
 //reverse()
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -217,3 +218,32 @@ console.log(fruits);
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Kiwi", "Lemon");
 console.log(fruits);
+*/
+
+// function reverseInPlace() {
+//     var words = ["ayilA","biaohS","badahS","anibuR","sifaN"];
+    
+//     var result = [];
+//     for (var i = 0; i < words.length; i++) {
+//        result.push( words[i].split('').reverse().join('')) 
+//     }
+//     return result
+
+//   }
+  
+//   console.log(reverseInPlace());
+
+//coding challenge on an array
+
+  function reverseInPlace() {
+    var words = ["ayilA","biaohS","badahS","anibuR","sifaN"];
+    
+    var result =[];
+    for (var i = 0; i < words.length; i++) {
+       result.push(words[i].split('').reverse().join(''))
+       
+    }
+    return result
+  }
+  console.log(reverseInPlace().reverse())
+
