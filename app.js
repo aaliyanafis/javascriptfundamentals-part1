@@ -247,3 +247,39 @@ console.log(fruits);
   }
   console.log(reverseInPlace().reverse())
 
+// const reverseInPlace = () => {
+//  const original= ["ayliA", "biaohs", "badahs", "anibuR", "stfall"];
+//  let result = []
+//   original.reverse().map(name=>{
+//      result.push(name.split('').reverse().join(''))
+//   })
+//     return result;
+
+// };
+
+// console.log(reverseInPlace())
+
+
+//WORKING WITH ARRAY PART-2
+
+//shift()
+var a = ['Nafis', 'Rubina', 'Shadab', 'Shoaib', 'Aliya'];
+a.shift();
+console.log(a);
+
+//unshift()
+var a = ['Rubina', 'Shadab', 'Shoaib', 'Aliya'];
+a.unshift('Nafis');
+console.log(a);
+
+//concat()
+var a = ['Nafis', 'Rubina', 'Shadab'];
+var b = ['Shoaib', 'Aliya'];
+var c = a.concat(b);
+console.log(c);
+
+//join()
+var a = ['Nafis', 'Rubina', 'Shadab'];
+var b = ['Shoaib', 'Aliya'];
+var c = a.join(b);
+console.log(c);
