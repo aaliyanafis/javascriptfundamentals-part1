@@ -218,7 +218,7 @@ console.log(fruits);
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Kiwi", "Lemon");
 console.log(fruits);
-*/
+
 
 // function reverseInPlace() {
 //     var words = ["ayilA","biaohS","badahS","anibuR","sifaN"];
@@ -283,3 +283,33 @@ var a = ['Nafis', 'Rubina', 'Shadab'];
 var b = ['Shoaib', 'Aliya'];
 var c = a.join(b);
 console.log(c);
+*/
+
+//The map method
+var numbers = [65, 44, 12, 4];
+var newArr = numbers.map(myFunction);
+
+function myFunction(num) {
+  return num * 10;
+}
+console.log(newArr);
+
+//The filter method
+var ages = [32, 33, 16, 40];
+var result = ages.filter(checkAdult);
+
+function checkAdult(age) {
+  return age >= 18;
+}
+console.log(result);
+
+//The reduce method
+var numbers = [175, 50, 25];
+
+var result = numbers.reduce(myFunc);
+
+function myFunc(total, num) {
+  return total - num;
+}
+
+console.log(result)
