@@ -283,7 +283,7 @@ var a = ['Nafis', 'Rubina', 'Shadab'];
 var b = ['Shoaib', 'Aliya'];
 var c = a.join(b);
 console.log(c);
-*/
+
 
 //The map method
 var numbers = [65, 44, 12, 4];
@@ -313,3 +313,20 @@ function myFunc(total, num) {
 }
 
 console.log(result)
+*/
+
+//The chaining method
+
+const person = [
+ { firstName:"Nafisuddin", lastName:"Hashmi", age:61 },
+ { firstName:"Rubina", lastName:"Nafis", age:56 },
+ { firstName:"Shadab", lastName:"Hashmi", age:27 },
+ { firstName:"Shoaib", lastName:"Hashmi", age:25 },
+ { firstName:"Aaliya", lastName:"Nafis", age:22 },
+];
+
+const output = person.filter((x) => x.age < 30)
+.map((x) => x.firstName)
+
+
+console.log(output);
