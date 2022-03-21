@@ -318,15 +318,15 @@ console.log(result)
 //The chaining method
 
 const person = [
- { firstName:"Nafisuddin", lastName:"Hashmi", age:61 },
- { firstName:"Rubina", lastName:"Nafis", age:56 },
- { firstName:"Shadab", lastName:"Hashmi", age:27 },
- { firstName:"Shoaib", lastName:"Hashmi", age:25 },
- { firstName:"Aaliya", lastName:"Nafis", age:22 },
+ { firstName:"Nehal", lastName:"Khan", age:61 },
+ { firstName:"Raveena", lastName:"Nehal", age:56 },
+ { firstName:"Subhan", lastName:"khan", age:27 },
+ { firstName:"zavier", lastName:"khan", age:25 },
+ { firstName:"alina", lastName:"Nehal", age:22 },
 ];
 
 const output = person.filter((x) => x.age < 30)
 .map((x) => x.firstName)
-
+ 
 
 console.log(output);
